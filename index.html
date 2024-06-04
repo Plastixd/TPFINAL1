@@ -9,25 +9,41 @@
 <body>
     <header>    <!--usar display flex con align item center y justify en space around-->
                 <!--Ver position para q te siga el logo-->
-        <img src="" alt=""> <!--LOGO DE LA PAGINA-->
-        <nav>
-            <a href="index.html">HERRERA</a>
-            <a href="">Home</a>
-            <a href="">Speciality</a>
-            <a href="">Portfolio</a>
-            <a href="">Contact</a>
+         <!--LOGO DE LA PAGINA-->
+        <nav class="menu">
+            <div>
+                <img src="img/logo.png" alt="">
+            </div>
+            
+            <div class="menuboton">
+                <a href="">Home</a>
+                <a href="">Speciality</a>
+                <a href="">Portfolio</a>
+                <a href="">Contact</a>
+            </div>
+            
         </nav>
     </header>
 
     <main>
-        <section> <!--Inicio del hero-->
-            <img src="" alt="">
-            <h1>My name is <b>Paschenko Ruslan</b></h1>
-            <h2 class="hero im">I'm:</h2>
-            <h2 class="hero">Web Developer   And   Web Designer</h2>
-            <button>Contact With Me</button>
-            <hr>
-        </section> <!--Fin del hero-->
+        <!--Inicio del hero-->
+        <section class="heroflex">
+            <div>
+                <img class="heroimg" src="img/pachecocara.png" alt="">
+            </div>
+            <div class="herotext">
+                <h1>My name is <b>Paschenko Ruslan</b></h1>
+                <div class="align">
+                    <h2 class="hero2t im">I'm:</h2>
+                    <h2 class="hero2t">Web Developer</h2>
+                    <h2 class="hero2t and">And</h2>
+                    <h2 class="hero2t">Web Designer</h2>
+                </div>
+                <button>Contact With Me</button>
+            </div>
+        </section>
+        <hr>        
+        <!--Fin del hero-->
 
         <section> <!--Inicio de la seccion Speciality-->
             <h2>Speciality</h2>
