@@ -88,7 +88,6 @@ main{
     display: flex;
     flex-direction:column;
     align-items: center;
-    border: solid blue;
 }
 
 .heroflex{
@@ -99,6 +98,7 @@ main{
     justify-content: space-between;
     align-content: center;
     align-items: center;
+    padding-right: 10px;
 }
 
 .heroimg{
@@ -148,6 +148,7 @@ button{
     width: 90%;
     padding-left: 33px;
     padding-bottom: 120px;
+
 }
 
 .spcont{
@@ -158,6 +159,7 @@ button{
 
 .spboxes{
     width: 270px;
+    padding-right: 10px;
 }
 
 .title{
@@ -174,6 +176,7 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-right: 30px;
     display: flex;
     flex-direction: row;
 }
@@ -198,4 +201,55 @@ button{
     display: flex;
     flex-direction: row;
     padding-top: 120px;
+}
+
+.portfolio{
+    width: 90%;
+    padding-left: 33px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.portfoliorow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    padding-right: 30px;
+}
+
+.portfolioimg{
+    width: 380px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.portfoliobutton{
+    font-family:"Radio Canada Big";
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    background-color: #a2a2a2;
+    width: 320px;
+    height: 70px;
+}
+
+.about{
+    width: 90%;
+    padding-left: 33px;
+    padding-bottom: 120px;
+}
+
+.aboutbox1{
+    padding: 0px 90px;
+}
+.aboutbox2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+    padding-left: 80px;
+}
+
+.abouttext{
+    font-size: 20px;
 }
