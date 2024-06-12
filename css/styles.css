@@ -1,10 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big&display=swap');
 
-html{
-    scroll-behavior: smooth;
-}
-
 *{
     margin: 0px;
     padding: 0px;
@@ -43,8 +39,10 @@ p{
 }
 
 hr{
-    width: 70%;
-}
+    position:relative;
+    right: 20%;
+    width: 90%;
+}   
 
 header{
     height: 120px;
@@ -106,6 +104,8 @@ main{
 .heroimg{
     border-radius: 20px;
     margin-left: 20px;
+    width: 350px;
+    height: 350px;
 }
 
 .herotext{
@@ -175,7 +175,7 @@ main{
 .skills{
     width: 90%;
     margin-left: 33px;
-    padding-bottom: 120px;
+    padding-bottom: 30px;
 }
 
 .skillrow1{
@@ -256,6 +256,7 @@ main{
     width: 380px;
     height: 280px;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .portfoliobutton{
@@ -274,7 +275,8 @@ main{
 .about{
     width: 90%;
     margin-left: 33px;
-    padding-bottom: 120px;
+    padding-top: 50px;
+    padding-bottom: 200px;
 }
 
 .aboutbox1{
@@ -424,3 +426,5 @@ button:hover{
     background-color: #9c9c9c;
     transition: background-color 0.5s ease;
 }
+
+

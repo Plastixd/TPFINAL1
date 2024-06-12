@@ -9,104 +9,99 @@
     <title>TP FINAL 1</title>
 </head>
 <body>
-    <header>    <!--usar display flex con align item center y justify en space around-->
-                <!--Ver position para q te siga el logo-->
-         <!--LOGO DE LA PAGINA-->
-        <nav class="menu">
-            <div>
-                <img src="img/logo.png" class="logo" alt="">
+    <header>    
+        <nav class="menu"> <!-- Inicio del Menu de la pagina -->
+            <div> <!-- Logo de la pagina-->
+                <img src="img/logoh.png" class="logo" alt="">
             </div>
             
+            <!-- botones del menu -->
             <div class="menuboton">
-                <a href="#hero" class="zoom">Home</a>
-                <a href="#speciality" class="zoom">Speciality</a>
+                <a href="#hero" class="zoom">Inicio</a>
+                <a href="#speciality" class="zoom">Especialidades</a>
                 <a href="#portfolio" class="zoom">Portfolio</a>
-                <a href="#contact" class="zoom">Contact</a>
+                <a href="#contact" class="zoom">Contacto</a>
             </div>
-            
-        </nav>
+        </nav> <!-- Fin del menú de la página-->
     </header>
 
     <main>
-        <!--Inicio del hero-->
-        <section class="heroflex" id="hero">
-            <div>
-                <img class="heroimg" src="img/pachecocara.png" alt="">
+        <section class="heroflex" id="hero"> <!-- Inicio del hero-->
+            <div> <!-- Este bloque contiene solo la imagen del hero-->
+                <img class="heroimg" src="img/herreracara.jpeg" alt="">
             </div>
-            <div class="herotext">
-                <h1>My name is <b>Paschenko Ruslan</b></h1>
-                <div class="heroalign">
-                    <h2 class="hero2t im">I'm:</h2>
-                    <h2 class="hero2t">Web Developer</h2>
-                    <h2 class="hero2t and">And</h2>
-                    <h2 class="hero2t">Web Designer</h2>
+            <div class="herotext"> <!-- Este bloque contiene el texto del hero y el botón-->
+                <h1>Mi nombre es <b>Pedro Herrera </b></h1>
+                <div class="heroalign"> <!-- Este texto del hero se separa para acomodarse con flex y aparte se estiliza con la clase hero2t-->
+                    <h2 class="hero2t im">Soy:</h2>
+                    <h2 class="hero2t">Desarrollador Web</h2>
+                    <h2 class="hero2t and">Y</h2>
+                    <h2 class="hero2t">Diseñador Web</h2>
                 </div>
-                <button class="herobutton">Contact With Me</button>
+                <button class="herobutton">Contacte conmigo</button>
             </div>
-        </section>
-                
-        <!--Fin del hero-->
+        </section> <!--Fin del hero-->
+                     
+        <hr>
 
         <section class="speciality" id="speciality"> <!--Inicio de la seccion Speciality-->
-            <h2 class="title">Speciality</h2>
-            <section class="spcont">
+            <h2 class="title">Especialidades</h2>
+            <section class="spcont"> <!-- Este bloque contiene todos las cajas de especialidad-->
                 <div class="spboxes">
                     <h3 class="title">UI & UX Design</h3>
-                    <p>My favorite pastime is design. I work as a designer not because it brings me money, but primarily because I like it. I have good taste and a sharp eye</p>
+                    <p>Mi pasatiempo favorito es el diseño. Trabajo como diseñador no porque me traiga dinero, sino principalmente porque me gusta. Tengo buen gusto y un ojo agudo.</p>
                 </div>
                 <div class="spboxes">
                     <h3 class="title">Front-end Developer</h3>
-                    <p>Another favorite thing of mine is frontend development. I make a website of any complexity for you and adapt it. I write clear code that is easy to work with in the future</p>
+                    <p>Otra de mis actividades favoritas es el desarrollo frontend. Puedo crear un sitio web de cualquier complejidad para ti y adaptarlo. Escribo un código claro que es fácil de trabajar en el futuro.</p>
                 </div>
                 <div class="spboxes">
                     <h3 class="title">Back-end Developer</h3>
-                    <p>I'm new to the backend. But I can do simple things that are needed 90% of the time.</p>
+                    <p>Soy nuevo en el backend, pero puedo hacer cosas simples que se necesitan el 90% del tiempo.</p>
                 </div>
             </section>
-            
-            
         </section> <!--Fin de la seccion Speciality-->
+
+        <hr>
 
         <section class="skills" id="skills"> <!--Inicio de la seccion Skills-->
             <h2 class="title">Skills</h2>
-            
             <!--Inicio de la primer columna-->
-            <section class="skillrow1">
-                <div class="skillbox">
-                    <div class="skillboxcontent">
+            <section class="skillrow1"> <!-- Este es el contenedor de todas las cajas de skills-->
+                <div class="skillbox"> <!-- Este bloque determina la caja de cada skill-->
+                    <div class="skillboxcontent"> <!-- Este bloque es para ordenar el contenido de cada caja-->
                         <div class="skilltitle">
                             <img src="svg/HTML5.svg" class="skillsicon" alt="">
                             <h3 class="title">HTML5</h3>
                         </div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolore quos earum ex vel mollitia dolor exercitationem illum, facere doloremque ducimus blanditiis totam repellat consequatur placeat, quisquam quo, nam corporis.</p>
+                        <p>Desde el año 2015, mi segundo año de secundaria, conozco HTML. Es mi primer acercamiento a la programación y ciertamente le guardo aprecio a HTML por esta razón. A pesar de ser cada vez menos utilizado, considero tener conocimientos suficientes en este hipertexto.</p>
                     </div>
                 </div>
                 <div class="skillbox">
                     <div class="skillboxcontent">
                         <div class="skilltitle">
                             <img src="svg/CSS.svg" class="skillsicon" alt="">
-                            <h3 class="title">Java Script</h3>
+                            <h3 class="title">CSS</h3>
                         </div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolore quos earum ex vel mollitia dolor exercitationem illum, facere doloremque ducimus blanditiis totam repellat consequatur placeat, quisquam quo, nam corporis.</p>
+                        <p>Sobre CSS puedo trabajar para estilizar el contenido de una página, valiéndome de funciones y atributos varios; como flex que creo manejar bien, animaciones para una página, y demás.</p>
                     </div>
                 </div>
                 <div class="skillbox">
                     <div class="skillboxcontent">
                         <div class="skilltitle">
                             <img src="svg/php.svg" class="skillsicon" alt="">
-                            <h3 class="title">Java Script</h3>
+                            <h3 class="title">PHP</h3>
                         </div>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolore quos earum ex vel mollitia dolor exercitationem illum, facere doloremque ducimus blanditiis totam repellat consequatur placeat, quisquam quo, nam corporis.</p>
                     </div>
                 </div>
-            
                 <div class="skillbox">
                     <div class="skillboxcontent">
                         <div class="skilltitle">
                             <img src="svg/py.svg" class="skillsicon" alt="">
-                            <h3 class="title">Java Script</h3>
+                            <h3 class="title">Python</h3>
                         </div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolore quos earum ex vel mollitia dolor exercitationem illum, facere doloremque ducimus blanditiis totam repellat consequatur placeat, quisquam quo, nam corporis.</p>
+                        <p>Durante el primer año de cursado en la carrera de Ingeniería en Sistemas de la Información, en la materia Algoritmos y estrucutra de datos, el lenguaje que utilizamos para programar es Python, estoy muy familiarizado desde ese momento con Python.</p>
                     </div>
                 </div>
                 <div class="skillbox">
@@ -115,25 +110,22 @@
                             <img src="svg/js.svg" class="skillsicon" alt="">
                             <h3 class="title">Java Script</h3>
                         </div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolore quos earum ex vel mollitia dolor exercitationem illum, facere doloremque ducimus blanditiis totam repellat consequatur placeat, quisquam quo, nam corporis.</p>
+                        <p>Varias veces incursioné en el aprendizaje de Java Script, y a pesar de tener los conocimientos básicos, puedo utilizar esta información para complementar algún sitio web. En el curso de este año aprenderé más sobre esto.</p>
                     </div>
                 </div>
                 <div class="skillbox">
                     <div class="skillboxcontent">
                         <div class="skilltitle">
                             <img src="svg/sql.svg" class="skillsicon" alt="">
-                            <h3 class="title">Java Script</h3>
+                            <h3 class="title">SQL</h3>
                         </div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati dolore quos earum ex vel mollitia dolor exercitationem illum, facere doloremque ducimus blanditiis totam repellat consequatur placeat, quisquam quo, nam corporis.</p>
+                        <p>Sobre SQL solo realicé un curso de DBA1, en el año 2023. Aprendí lo básico sobre bases de datos relacionales, y cómo trabajar sobre ellas. La mayoría del conocimiento que tengo en SQL es gracias a mi trabajo.</p>
                     </div>
                 </div>
-            </section>
-            <!--Fin de la segunda columna-->
-
-           
-
-            <section class="skillsadd">
-                <div class="addline">
+            </section> 
+   
+            <section class="skillsadd"> <!-- Este contenedor tiene los skills adicionales que no van en cajas-->
+                <div class="addline"> <!-- Cada contenedor tiene el logo y luego el nombre del skill-->
                     <img src="svg/figma.svg" class="skillsicon" alt="">
                     <h3>Figma</h3>
                 </div>
@@ -146,38 +138,43 @@
                     <h3>Adobe XD</h3>
                 </div>
             </section>
-
-        </section><!--fin de la seccion Skills-->
-
+        </section> <!-- Fin de la seccion Skills-->
+   
+        <hr>
+   
         <section class="portfolio" id="portfolio"><!--Inicio de la seccion Portfolio-->
             <h2 class="title">Portfolio</h2>
-            <div class="portfoliorow">
+            <div class="portfoliorow"> <!-- Contenedor de las imagenes del portfolio -->
+
+                <img src="img/ej.png" class="portfolioimg zoom" alt="">
+                <img src="img/ej.png" class="portfolioimg zoom" alt="">
+                <img src="img/ej.png" class="portfolioimg zoom" alt="">
                 <img src="img/ej.png" class="portfolioimg zoom" alt="">
                 <img src="img/ej.png" class="portfolioimg zoom" alt="">
                 <img src="img/ej.png" class="portfolioimg zoom" alt="">
             
-                <img src="img/ej.png" class="portfolioimg zoom" alt="">
-                <img src="img/ej.png" class="portfolioimg zoom" alt="">
-                <img src="img/ej.png" class="portfolioimg zoom" alt="">
             </div>
-            <button class="portfoliobutton">See More</button>
+            <button class="portfoliobutton">Ver más</button>
         </section><!--Fin de la seccion Portfolio-->
+        
+        <hr>
 
         <section class="about"><!--inicio de la seccion about me-->
-            <h2>Some</h2> <h2>About</h2> <h2>Me</h2>
+            <h2>Algo</h2> <h2>Sobre</h2> <h2>Mi</h2>
+
             <div class="aboutbox1">
-                <p class="abouttext">Hey! My name is Ruslan and I am a front-end developer and web designer. I graduated from such courses as: GeekBrains - in front-end development and Moscow Digital Academy in the field of web design. At the moment I am studying and diving deeper into web development. I am a student at Moscow University, studying in the direction of the Programmer.</p>
+                <p class="abouttext">¡Hola! Mi nombre es Pedro y estoy cursando la diplomatura en programación web full stack 2024. He completado cursos como DBA1 de la academia CISCO en la UTN y demás. En este momento, estoy estudiando y profundizando en el desarrollo web. Soy estudiante en la Universidad Tecnológica, estudiando la carrera sistemas.</p>
                 <br>
                 <br>
-                <p class="abouttext">I believe that the most important thing in life is to find yourself and what you like. I am very glad that I have chosen this path. This motivates me and so I move on. Patience and a little effort</p>    
+                <p class="abouttext">Creo que lo más importante en la vida es encontrarse a uno mismo y descubrir lo que te gusta. Estoy muy contento de haber elegido este camino. Esto me motiva y por eso sigo adelante. Paciencia y un poco de esfuerzo.</p>    
             </div>
             
             <section class="aboutbox2">
                 <div>
-                    <h2>What</h2>
-                    <h2>Can</h2>
-                    <h2>I Offer</h2>
-                    <h2>You</h2>
+                    <h2>Que</h2>
+                    <h2>Puedo</h2>
+                    <h2>Ofrecer</h2>
+                    <h2>A ti</h2>
                 </div>
                 <div>
                     <br>
@@ -188,44 +185,44 @@
                     <br>
                     <br>
                     <br>
-                    <p class="abouttext">Working with me - you will receive quality work from me. I give my best and understand the client / employer well. I also learn and adapt quickly!</p>
+                    <p class="abouttext">Trabajar conmigo significa recibir un trabajo de calidad. Doy lo mejor de mí y entiendo bien al cliente o empleador. ¡Además, aprendo y me adapto rápidamente!</p>
                 </div>
             </section>
             
         </section><!--fin de la seccion about me-->
+        <hr>
 
     </main>
 
     <footer>
         
         <section id="contact" class="contact"><!--inicio de la seccion contact me-->
-            <h2 class="title">Contact With Me</h2>  
-            <img src="" alt=""> <!--logo-->
+            <h2 class="title">Contacta conmigo</h2>
             <div class="contactbox">
 
                 <div class="contactform">
                     <form action="">
-                        <input type="text" class="contactinput" placeholder="Name">
-                        <input type="text" class="contactinput" placeholder="Phone">
+                        <input type="text" class="contactinput" placeholder="Nombre">
+                        <input type="text" class="contactinput" placeholder="Teléfono">
                         <br>
                         <br>    <!--Estos BR son para espaciar verticalmente-->
                         <br>
                         <br>
-                        <input type="text" class="contactinput" placeholder="Message">
+                        <input type="text" class="contactinput" placeholder="Mensaje">
                         
                         <div class="contactfin">
                             <button class="contactbutton">Send</button>
                             <input type="file" class="inputfile">
                             <label for="file" class="file-label">
-                                    + Add File Or Audio
+                                    + Archivo o audio
                             </label>
                         </div>
                     </form>
                     
                 </div>
                 <div class="contacttext">
-                    <h2>Let's Work!</h2>
-                    <p>I am always ready to consider your proposal. You just need to write to me. If you are not comfortable doing this through a website, then here are the networks that can help you 
+                    <h2>Trabajemos juntos!</h2>
+                    <p>Siempre estoy dispuesto a considerar tu propuesta. Solo necesitas escribirme. Si no te sientes cómodo haciéndolo a través de un sitio web, aquí tienes las redes que pueden ayudarte.
                     </p>
                     <div class="contacticonsbox">
                         <a href="https://www.facebook.com" target="_blank">
